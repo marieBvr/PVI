@@ -6,11 +6,11 @@
 	    <!-- Bootstrap CSS -->
 		<script src="https://d3js.org/d3.v5.min.js"></script>
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <link type="text/css" rel="stylesheet" href="css/pvi.css" />
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="js/network.js"></script>
+		<script src="js/network-pie.js"></script>
     	
-
 	    <title>Plant-Virus Interactome</title>
   	</head>
 
@@ -38,7 +38,20 @@
 		<div class="container">
 		  <div class="menu-content interactome">
 		  	<h3>Interactome Vizualisation</h3>
-		  	<svg width="900" height="500" shape-rendering="geometricPrecision"></svg>
+		  	<div>
+		  		<div class="svg-container">
+			  		<svg width="1000" height="750" shape-rendering="geometricPrecision"></svg>
+			  	</div>
+			  	<form class="form-container">
+				  <div class="form-group">
+				    <label for="exampleFormControlSelect1">Nodes Coloring</label>
+				    <select class="form-control" id="exampleFormControlSelect1">
+				      <option value="pt" selected="selected">Protein type</option>
+				      <option value="sp">Species</option>
+				    </select>
+				  </div>
+				</form>
+			</div>
 		  </div>
 		  <div class="menu-content about">
 		  	<h3>About</h3>
