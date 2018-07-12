@@ -1,0 +1,19 @@
+svg{
+	border: solid 1px #EDEAED;
+}
+
+.container{
+	width: 80%;
+}
+
+.form-container{
+	float: right;
+	display: inline-block;
+	width: 30%;
+}
+
+.svg-container{
+	float: left;
+	display: inline-block;
+	width: 70%
+}
