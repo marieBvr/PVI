@@ -6,14 +6,15 @@ svg{
 	width: 80%;
 }
 
-.form-container{
+.form-group{
 	float: right;
 	display: inline-block;
-	width: 30%;
+        overflow: hidden;
+	width: 20%;
 }
 
 .svg-container{
 	float: left;
 	display: inline-block;
-	width: 70%
+	width: 80%
 }

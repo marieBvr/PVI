@@ -9,7 +9,7 @@
 	    <link type="text/css" rel="stylesheet" href="css/pvi.css" />
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="js/network-pie.js"></script>
+		<script src="js/network.js"></script>
     	
 	    <title>Plant-Virus Interactome</title>
   	</head>
@@ -40,22 +40,25 @@
 		  	<h3>Interactome Vizualisation</h3>
 		  	<div>
 		  		<div class="svg-container">
-			  		<svg width="1000" height="750" shape-rendering="geometricPrecision"></svg>
+			  		<svg width="780" height="500" shape-rendering="geometricPrecision"></svg>
 			  	</div>
-			  	<form class="form-container">
-				  <div class="form-group">
+                                <div class="form-group">
+			  	  <form class="form-container">
 				    <label for="exampleFormControlSelect1">Nodes Coloring</label>
 				    <select class="form-control" id="exampleFormControlSelect1">
-				      <option value="pt" selected="selected">Protein type</option>
-				      <option value="sp">Species</option>
+				      <option value="pt">Protein type</option>
+				      <option value="sp" selected="selected">Species</option>
 				    </select>
-				  </div>
-				</form>
+				   </form>
+                                </div>
 			</div>
 		  </div>
 		  <div class="menu-content about">
 		  	<h3>About</h3>
-		  	<p></p>
+		  	<p>Source: 
+			Martínez, F., Rodrigo, G., Aragonés, V. <i>et al. </i>
+			Interaction network of tobacco etch potyvirus NIa protein with the host proteome during infection. 
+			<i>BMC Genomics</i> <b>17</b>, 87 (2016). https://doi.org/10.1186/s12864-016-2394-y</p>
 		  </div>
 		</div>
 
